@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <form action="/submit-form" method="post">
+        <label for="name"><strong>First Name:</strong></label>
+        <input type="text" id="first_name" name="first_name" placeholder="Enter your name">
+        <br>
+        <label for="name"><strong>Second Name:</strong></label>
+        <input type="text" id="second_name" name="second_name" placeholder="Enter your name">
+        <br>
+        <label for="DOB"> <strong>Date of Birth:</strong></label>
+        <input type="date" id="DOB" name="DOB"> 
+        <br>
+        <br>
+        <label><strong>Select your gender</strong></label> <br>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label> 
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label> <br>
+        <br>
+        <label for="address"><strong>Address:</strong></label><br>
+
+        <input type="text" id="address1" name="address1" placeholder="Address Line 1"><br>
+        <input type="text" id="address2" name="address2" placeholder="Address Line 2"><br>
+        <input type="text" id="city" name="city" placeholder="City"><br>
+        <input type="text" id="state" name="state" placeholder="State"><br>
+        <input type="text" id="zipcode" name="zipcode" placeholder="Zip Code"><br>
+        <input type="text" id="country" name="country" placeholder="Country"><br>
+        <br>
+
+        <label for="tel"><strong> Number:</strong></label>
+        <input type="tel" id="Telephone" name="Telephone" placeholder="0795501941">
+        <br>
+        <br>
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br>
+        <br>
+        <label for="password"><strong>Password:</strong></label>
+        <input type="password" id="password" name="password" placeholder="Password goes here" aria-describedby="Password-hint">
+
+        <br>
+        <br>
+        <label for="tel"><strong>Phone Number:</strong></label>
+        <input type="tel" id="Telephone" name="Telephone" placeholder="eg.0795501941">
+        <br>
+        <br>
+        <label for="name"><strong>Course:</strong></label>
+        <input type="text" id="course" name="course" placeholder="Enter your course"><br>
+
+        <button type="submit">Register</button>
+        <button type="submit">Cancel</button>
+         
+        </form>
+        </html>
